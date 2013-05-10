@@ -1,0 +1,5 @@
+body,html,ul, li { margin:0; padding:0; }
+ul, li { list-style:none; }
+
+.lb-newsticker-wrap { background:#eee; width:80%; margin:20px auto; }
+.lb-newsticker-title { font-weight:bold; color:#1a1a1a; }
