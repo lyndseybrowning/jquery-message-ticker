@@ -116,8 +116,3 @@
      }
   };
 })( jQuery );
-
-$(function() {
-    $('#lb-newsticker').lbNewsticker();
-    //What about adding a second selector for multiple tickers????
-});
