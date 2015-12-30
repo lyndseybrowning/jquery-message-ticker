@@ -1,5 +1,18 @@
-body,html,ul, li { margin:0; padding:0; }
-ul, li { list-style:none; }
+body,html,ul, li {
+  margin:0; padding:0;
+}
 
-.lb-newsticker-wrap { background:#eee; width:80%; margin:20px auto; }
-.lb-newsticker-title { font-weight:bold; color:#1a1a1a; }
+ul, li {
+  list-style:none;
+}
+
+.ticker-wrap {
+  background: #eee;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.ticker-title { 
+  font-weight: 700;
+  color: #1a1a1a;
+}

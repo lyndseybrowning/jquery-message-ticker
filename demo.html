@@ -1,20 +1,31 @@
-<ul id="lb-newsticker">
-    <li><a href="#"> This is a news item... </a></li>    
-    <li><a href="#"> This is the second news item... </a></li>   
-    <li><a href="#"> This is the third news item... </a></li>   
-    <li><a href="#"> This is the fourth news item... </a></li>    
-    <li><a href="#"> This is the fifth news item... </a></li>    
-</ul>
+<!doctype html>
+<html>
+<head>
+  <title> Ticker.js </title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
 
-<ul id="test" style="display:none;">
-    <li> one </li>
-    <li> two </li>
-    <li> three </li>
-</ul>
-    
-<script>
-$(function() {
-    $('#lb-newsticker').lbNewsticker();
-    //What about adding a second selector for multiple tickers????
-});
-</script>
+  <ul id="js-ticker">
+      <li><a href="#"> This is a news item... </a></li>
+      <li><a href="#"> This is the second news item... </a></li>
+      <li><a href="#"> This is the third news item... </a></li>
+      <li><a href="#"> This is the fourth news item... </a></li>
+      <li><a href="#"> This is the fifth news item... </a></li>
+  </ul>
+
+  <ul id="test" style="display:none;">
+      <li> one </li>
+      <li> two </li>
+      <li> three </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="ticker.js"></script>
+  <script>
+    $(function() {
+        $('#js-ticker').ticker();
+    });
+  </script>
+</body>
+</html>
