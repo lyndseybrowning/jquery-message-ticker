@@ -8,6 +8,6 @@ Usage
 
 <code>
 $(function() {
-  $(element).newsTicker();
+  $('#js-ticker').ticker();
 });
 </code>
